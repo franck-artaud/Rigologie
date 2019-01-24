@@ -1,0 +1,541 @@
+/* DOCUMENT INFORMATIONS
+    -Document : Évoltution positive-Rigologie
+    -version : 1.0.0
+    -author : Franck ARTAUD
+*/
+
+/* DEFAULT COLORS
+    -default : Roboto
+    -Alternate : Great+Vibes
+    -h1
+    -H2
+    -h3
+
+    -button
+    -button:hover
+
+    -border
+*/
+
+/*FONTS
+    -default
+    -subtitle
+*/
+
+/* CSS DIRECTORY
+    1 = GLOBAL
+    2 = HEADER
+*/
+
+/* GLOBAL
+========================================================*/
+
+html {
+    background-color: #fff;
+}
+
+h1 {
+    font-family: "roboto", "arial", "sans-serif";
+    color : #eee;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 200;
+    word-spacing: 6px;
+}
+
+h2 {
+    font-family: "roboto", "arial", "sans-serif";
+    color : #f42626;
+    font-weight: 700;
+}
+
+
+h3 {
+    font-family: "roboto", "arial", "sans-serif";
+    color : #312e2e;
+    font-weight: 300;
+    font-size: 25px;
+
+}
+
+
+p{
+    font-family: "roboto", "arial", "sans-serif";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+/* HEADER
+========================================================*/
+            /* NAV
+            ==============================*/
+.item-menu{
+    color:#fff;
+}
+
+.navbar-brand {
+    color:#fff;
+    font-size: 150%;
+    text-transform: uppercase;
+    font-weight: 900;  
+}
+
+.navbar-brand:hover {
+    color:#fff;
+    font-size: 150%;
+    text-transform: uppercase;
+    font-weight: 900; 
+}
+
+.item-menu:hover{
+    background-color: #f1c0c0;
+    color: rgb(226, 14, 14);
+    border-radius: 30px;
+}
+
+
+
+
+header {
+    background-image:url(../images/visuel-rigologie-acceuil.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;    
+}
+
+.home-title{
+    position: absolute;
+    top: 30%;
+    
+}
+
+.home-title h1{
+    Font-family: 'Dancing Script', cursive;
+    text-transform: capitalize;
+    letter-spacing: -1px;
+    font-size:12vw;
+    font-weight: 700;
+    color:#eee;
+}
+
+.home-title h1 span{
+    font-weight: 900;
+    color: #800080;
+    font-family: 'Dancing Script', cursive;
+    text-transform: lowercase;
+    letter-spacing: -1px;
+}
+
+.home-title p{
+    color: #fff;
+}
+
+.citation{
+    font-size:3.5vw;
+    font-style: italic;
+}
+
+
+.citation span{
+    color: #800080;
+}
+
+
+
+.auteur{
+    color: #fff;
+    font-size:1.5vw;
+    color: #310331;
+    padding-left: 10px;
+    line-height: 1px;
+
+}
+
+            /* BUTTONS */
+
+
+
+.btn-full{
+    background-color: azure;
+    color:#800080;
+    margin-right: 15px;
+    margin-top:60px;
+}
+
+.btn-ghost{
+    border:1px solid #eee;
+    color:#ed7c7c; 
+}
+
+.btn-full:hover{
+    background-color:#800080;
+    color:#fff;
+}
+
+.btn-ghost:hover{
+    color:#fff;
+    border:1px solid #ed7c7c;
+}
+
+/* NOS PRODUITS 
+========================================================*/
+.tea{
+    background-image: url(../images/tea.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;
+}
+
+.section-title{
+    position: relative;
+    top: 30px;
+    text-transform: uppercase;
+}
+
+.section-title:after{
+    display: block;
+    height: 6px;
+    content: "";
+    background-color:#ed7c7c;
+    width: 100px;
+    margin-bottom: 40px;
+}
+
+.icone-product{
+    font-size: 200%;
+    color:#f42626;
+}
+
+
+.argu-the{
+    background-color: rgba(255,228,225, 0.8);
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-left:30px;
+    opacity: 50%;
+    border-radius: 0px 20px 20px 0px;
+    border-left:4px dotted #f42626;
+}
+
+.produits-plus{
+    margin-bottom: 20px;
+}
+
+.produits-plus:hover .icone-product{
+    color: #ed7c7c;
+    transform: translateX(20px);
+    transition: all 0.5s;
+}
+
+/* NOS FAMILLES 
+========================================================*/
+
+.family-title{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    text-transform: uppercase;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+}
+
+.family-title:after{
+    display: block;
+    height: 6px;
+    content: "";
+    background-color:#fff;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+   margin-top: 10px;
+}
+.family-tea{
+ background-color: #f3b2b2;
+ padding: 60px 60px;
+
+}
+
+.family-detail{
+    background-color: #fff;
+    padding: 30px 30px;
+    margin-top:60px;
+    border-radius:20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
+}
+
+.family-detail img{
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.family-detail h4{
+    text-align: center;
+    font-size: 200%;
+    color:#f42626;
+  }
+
+  .family-detail p{
+    text-align: center;
+
+  }
+
+
+/* GALLERY PICTURES
+========================================================*/
+
+.image-gallery{
+    display: block;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    border-radius:20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
+    height: 300px;
+}
+
+.gallery-title{
+position: absolute;
+bottom:10px;
+left: 30px;
+
+}
+
+.gallery-title h4{
+    color: #eee;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "muli", "arial", "sans-serif";
+    background-color: #ed7c7c;
+    padding: 5px 5px;
+    
+    }
+.gallery{
+margin-bottom: 40px;
+padding-top: 60px;
+}
+
+    /* TESTIMONIAL 
+    ========================================================*/
+
+    .testimonial{
+        background-image:linear-gradient(rgba(255, 0, 0, 0.1),
+                                     rgba(255, 0, 0, 0.3)
+                                                         ),
+                                     url(../images/testimonial-bg.jpg);
+
+        background-size: cover;
+        background-attachment: fixed;
+        height: 60vh;
+        padding-top: 60px;
+
+    }
+    .testimonial-title h2{
+        color:#fff;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        margin:30px 30px;
+        background-color: rgba(240, 22, 14, 0.6);
+    }
+    blockquote{
+        padding: 5px;
+        color:#fff;
+        font-style: italic;
+        margin-top: 20px;
+    }
+
+    blockquote:before{
+        content: "\0022";
+        font-size: 600%;
+        font-family: 'Source Serif Pro', serif;
+        position: absolute;
+        top:-30px;
+    }
+
+    cite{
+        font-size: 80%;
+        display: block;
+        margin-top: 15px;
+    }
+
+
+    cite img{
+        height: 80px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+        /* TABLEAU DES PACKS
+        ========================================================*/
+        .packs{
+            padding-top: 60px;
+        }
+
+        .section-title-pack h2{
+            position: relative;
+            top: 30px;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 50px;
+            padding-top: 20px;
+        }
+
+        .pack {
+            box-shadow:0 0 5px rgba(0,0,0,0.3 );
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .pack span{
+            font-weight: 200;
+            font-size:70%;
+            position: relative;
+            bottom: 7px;
+            left:3px;
+        
+        }
+
+
+        .pack h3{
+            font-weight: 700;
+            font-size: 160%;
+            font-family: "muli", "arial", "sans-serif";
+            text-align: center;
+            color:#f42626;
+            text-transform: uppercase;
+            padding-top: 40px        }
+
+        .pack h4{
+            font-weight: 400;
+            font-size: 130%;
+            font-family: "muli", "arial", "sans-serif";
+            text-align: center;
+            color:#312e2e;
+        }
+
+        .pack p{
+            font-weight: 200;
+            font-size: 130%;
+            font-family: "muli", "arial", "sans-serif";
+            text-align: center;
+            color:#312e2e;
+        }
+
+        .jour{
+            border-bottom: 1px solid;
+            padding-bottom: 30px;
+        }
+
+        .pack-content ul {
+            list-style: none;
+            padding:20px;
+            font-weight: 700;
+        }
+
+            
+        .pack-content ul li i {
+            font-size: 110%;
+            margin-right: 10px;
+            color: #f42626;
+        }
+
+        .sign-up{
+            text-align: center;
+        }
+
+        .btn-pack{
+            background-color:  #f42626;
+            color: #fff;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+
+        .btn-pack:hover{
+            color: #312e2e;
+            border:1px solid #f42626;
+            background-color:  #fff;
+            font-weight: 700;
+        }
+
+        .pack-medium{
+            background-color: #f1c0c0;
+
+        }
+
+        #badge{
+            position: absolute;
+            top:10px;
+            right:5px;
+            font-size: 90%;
+            background-color: #f42626;
+            color:#fff;
+            padding: 5px;
+            border-radius: 5px;
+            font-weight: 700;
+        }
+        
+/* CONTACT
+        ========================================================*/
+    .contact-text{
+        font-family: "muli", "arial", "sans-serif";
+        font-weight: 700;
+    }
+
+
+    .contact-form {
+        margin-bottom: 20px;
+        }
+    .contact{
+        background-image: url(../images/background-contact.jpg);
+        height: 80vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .background-form {
+        background-color: rgba(255,228,225, 0.8)
+    }
+
+    .btn-enter{
+        margin-bottom: 20px;
+    }
+
+    .map{
+        position: absolute;
+        top:80px;
+        filter: grayscale(100%);
+    }
+
+
+    .phone i{
+        font-size: 30px;
+        color: #f42626;
+    }
+
+    .adress i{
+        font-size: 30px;
+        color: #f42626;
+    }
+
+    /* FOOTER
+        ========================================================*/
+    .footer{
+        height: 40px;
+        background-color: #f42626;
+        position: relative;
+
+        }
+
+    .footer p{
+        font-weight: 700;
+        color:#fff;
+        position: absolute;
+        top: 50%;
+        transform: translateY(50%);
+            }
