@@ -4,12 +4,12 @@
     -author : Franck ARTAUD
 */
 
-/* DEFAULT COLORS
-    -default : Roboto
-    -Alternate : Great+Vibes
-    -h1
-    -H2
-    -h3
+/* DEFAULT FONT
+    -default : Playfair
+    -Alternate : Dancing Script
+    -h1 : Roboto
+    -H2 : Roboto
+    -h3 : Roboto
 
     -button
     -button:hover
@@ -17,9 +17,9 @@
     -border
 */
 
-/*FONTS
-    -default
-    -subtitle
+/* COLOR
+    -default: # fff
+    -alternate : #800080
 */
 
 /* CSS DIRECTORY
@@ -35,8 +35,8 @@ html {
 }
 
 h1 {
-    font-family: "roboto", "arial", "sans-serif";
-    color : #eee;
+    font-family: 'Playfair Display', serif;
+    color :  #800080;
     text-transform: uppercase;
     letter-spacing: -1px;
     font-weight: 200;
@@ -44,25 +44,41 @@ h1 {
 }
 
 h2 {
-    font-family: "roboto", "arial", "sans-serif";
-    color : #f42626;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color :  #800080;
     font-weight: 700;
+    padding-top: 100px;
+}
+.subtitle{
+    margin-bottom: 30px;
+
 }
 
-
 h3 {
-    font-family: "roboto", "arial", "sans-serif";
-    color : #312e2e;
+    font-family: 'Roboto', sans-serif;
+    color :   #800080;
     font-weight: 300;
+    text-align: center;
     font-size: 25px;
+    line-height: 95%;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color :#800080;
+    font-weight: 300;
+    font-size: 18px;
 
 }
 
 
 p{
-    font-family: "roboto", "arial", "sans-serif";
-    font-size: 14px;
-    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 
@@ -71,38 +87,31 @@ p{
 ========================================================*/
             /* NAV
             ==============================*/
-.item-menu{
-    color:#fff;
+
+
+.link{
+    color:rgb(212, 209, 209);
 }
 
-.navbar-brand {
+.link:hover{
     color:#fff;
-    font-size: 150%;
-    text-transform: uppercase;
-    font-weight: 900;  
+    }
+
+
+.link:focus{
+    color:#fff;
+    font-weight: 700;
 }
 
-.navbar-brand:hover {
-    color:#fff;
-    font-size: 150%;
-    text-transform: uppercase;
-    font-weight: 900; 
-}
-
-.item-menu:hover{
-    background-color: #f1c0c0;
-    color: rgb(226, 14, 14);
-    border-radius: 30px;
-}
 
 
 
 
 header {
-    background-image:url(../images/visuel-rigologie-acceuil.png);
+    background-image:url(../images/visuel-rigologie-acceuil.jpg);
     height: 100vh;
     background-position: center;
-    background-size: cover;    
+    background-size: cover;  
 }
 
 .home-title{
@@ -117,12 +126,12 @@ header {
     letter-spacing: -1px;
     font-size:12vw;
     font-weight: 700;
-    color:#eee;
+    color:#800080;
 }
 
 .home-title h1 span{
     font-weight: 900;
-    color: #800080;
+    color: #fff;
     font-family: 'Dancing Script', cursive;
     text-transform: lowercase;
     letter-spacing: -1px;
@@ -147,8 +156,7 @@ header {
 .auteur{
     color: #fff;
     font-size:1.5vw;
-    color: #310331;
-    padding-left: 10px;
+    padding-left: 300px;
     line-height: 1px;
 
 }
@@ -158,29 +166,50 @@ header {
 
 
 .btn-full{
-    background-color: azure;
-    color:#800080;
+    background-color: #800080;
+    color:#fff;
     margin-right: 15px;
     margin-top:60px;
 }
 
-.btn-ghost{
-    border:1px solid #eee;
-    color:#ed7c7c; 
-}
-
 .btn-full:hover{
-    background-color:#800080;
-    color:#fff;
+    background-color:#fff;
+    color:#800080;
+    transition: 1s;
 }
 
-.btn-ghost:hover{
-    color:#fff;
-    border:1px solid #ed7c7c;
-}
 
-/* NOS PRODUITS 
+/* À PROPOS 
 ========================================================*/
+
+
+
+.family-detail img{
+    width: 50%;
+    height: 50%;
+    border-radius:50%;
+    padding: 20px;
+}
+
+.video{
+display: block;
+height:350px ;
+background-color: blue;
+position: relative;
+top:20%;
+
+}
+
+.toto{
+    height: 600px;
+    background-color: #f42626;
+}
+
+
+
+
+
+
 .tea{
     background-image: url(../images/tea.jpg);
     height: 100vh;
@@ -260,13 +289,7 @@ header {
 
 }
 
-.family-detail{
-    background-color: #fff;
-    padding: 30px 30px;
-    margin-top:60px;
-    border-radius:20px;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
-}
+
 
 .family-detail img{
   display: block;
@@ -274,11 +297,6 @@ header {
   width: 80%;
 }
 
-.family-detail h4{
-    text-align: center;
-    font-size: 200%;
-    color:#f42626;
-  }
 
   .family-detail p{
     text-align: center;
