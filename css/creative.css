@@ -1,7 +1,6 @@
 /*!
- * Start Bootstrap - Creative v5.0.2 (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2018 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
+ * Atelier 601 / Évolution Positive 85  - Creative v5.0.3 (https://atelier601.com)
+ * Copyright 2019
  */
 
 body,
@@ -48,6 +47,7 @@ h4{
 font-family: 'Dancing Script', cursive;
 color:#ec5aec;
 font-size: 2rem;
+padding-top: 5px;
 }
 
 
@@ -56,7 +56,7 @@ font-size: 2rem;
 }
 
 .bg-secondary {
-  background-color: #800080 !important;
+  background-color: #ec5aec !important;
 }
 
 .bg-dark {
@@ -74,6 +74,15 @@ section {
 .section-heading {
   margin-top: 0;
 }
+
+.section-heading2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 6vw;
+  margin-top: 0;
+  color: #FFF;
+
+}
+
 
 ::-moz-selection {
   color: #fff;
@@ -117,12 +126,13 @@ img::-moz-selection {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+#mainNav  #mainNav .navbar-brand:hover {
   color: #800080;
 }
 
+
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
-#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+#mainNav .navbar-nav > li.nav-item  {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -195,9 +205,11 @@ header.masthead {
   background-size: cover;
 }
 
+
 header.presentation {
-  background-image: url("../img/DSC_5576.JPG");
+  padding-top: 8rem;
   padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/bg-presentation.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -222,14 +234,25 @@ header.masthead p {
   font-style: italic; 
 }
 
+
+header.presentation p {
+  font-weight: 300;
+  font-size:32px !important;
+  color:#fff;
+  font-style: italic; 
+}
+
 header.masthead p span{
   font-weight: 700;
   color:#800080;
   font-size:40px !important;
 }
 
-
-
+header.presentation p span{
+  font-weight: 700;
+  color:#800080;
+  font-size:40px !important;
+}
 
 
 @media (min-width: 768px) {
@@ -357,6 +380,13 @@ header.masthead p span{
 
 /*! Additionnal css */
 
+.action{
+  padding-left: 200px;
+}
+
+.action-text{
+  padding-left: 60px;
+}
 
 .text-capitalize{
   font-size: 6vw;
@@ -392,9 +422,7 @@ height:100% !important;
 padding-bottom: 20px;
 }
 
-.title-presenttion{
-  font-size: 10vw;
-}
+
 
 .img-service {
   border-radius: 50%;
@@ -404,7 +432,6 @@ padding-bottom: 20px;
 
 border-radius: 50%;
 box-shadow: 0px 0px 7px 0px #FFF;
-margin-right: 30px;
 }
 
 
@@ -432,3 +459,12 @@ background-color: #130013;
     text-transform: uppercase;
     font-size: 10px;
     }
+.externe a{
+  color:#800080;
+  font-weight: 900;
+}
+
+.externe a:hover{
+  color:#212529;
+  font-weight: 900;
+}
