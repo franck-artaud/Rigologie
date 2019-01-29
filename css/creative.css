@@ -359,6 +359,7 @@ header.presentation p span{
 .button2 i {
   font-size: 40px;
   color: #800080;
+  margin-top:30px;
 }
 
 
@@ -371,6 +372,7 @@ header.presentation p span{
 .button2 i:hover{
   font-size: 40px;
   color:#212529;
+  margin-top: 30px;
 }
 
 .btn-xl {
@@ -468,3 +470,21 @@ background-color: #130013;
   color:#212529;
   font-weight: 900;
 }
+
+.heading2{
+
+  padding-top: 20px;
+}
+
+
+.list1{
+  list-style-type: none;
+  color: #800080;
+  font-size: 15px;
+}
+
+.list1 i{
+  color: #800080;
+  font-size: 20px;
+}
+
