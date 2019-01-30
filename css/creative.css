@@ -531,17 +531,6 @@ padding-left: 20px;
   padding-top: 60px;
 }
 
-.section-title-pack h2{
-  position: relative;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-
-.section-title-pack h3{
-  color: #800080;
-}
-
 .pack {
   box-shadow:0 0 5px rgba(0,0,0,0.3 );
   border-radius: 10px;
@@ -560,76 +549,75 @@ padding-left: 20px;
 
 .pack h3{
   font-weight: 700;
-  font-size: 160%;
-  font-family: "muli", "arial", "sans-serif";
+  font-size: 180%;
   text-align: center;
-  color:#f42626;
+  color:#212529;
   text-transform: uppercase;
-  padding-top: 40px        }
+  padding: 20px 60px;
+  border-bottom: 1px solid grey;
 
-.pack h4{
+
+}
+
+.pack h2{
   font-weight: 400;
-  font-size: 130%;
-  font-family: "muli", "arial", "sans-serif";
+  font-size: 150%;
   text-align: center;
-  color:#312e2e;
+  color:#800080;
 }
 
 .pack p{
-  font-weight: 200;
-  font-size: 130%;
-  font-family: "muli", "arial", "sans-serif";
+  font-weight: 600;
+  font-size: 110%;
   text-align: center;
   color:#312e2e;
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
 }
 
-.jour{
-  border-bottom: 1px solid;
-  padding-bottom: 30px;
-}
+
 
 .pack-content ul {
   list-style: none;
   padding:20px;
-  font-weight: 700;
+  font-weight: 400;
+  font-family: font-family: 'Open Sans', sans-serif !important;
 }
 
-  
+
 .pack-content ul li i {
   font-size: 110%;
   margin-right: 10px;
-  color: #f42626;
+  color: #800080;
+
 }
 
-.sign-up{
-  text-align: center;
-}
-
-.btn-pack{
-  background-color:  #f42626;
-  color: #fff;
-  margin-bottom: 30px;
-  font-weight: 700;
-}
-
-.btn-pack:hover{
+.pack-content ul li{
+  font-size: 110%;
+  margin-right: 10px;
   color: #312e2e;
-  border:1px solid #f42626;
-  background-color:  #fff;
-  font-weight: 700;
-}
-
-.pack-medium{
-  background-color: #f1c0c0;
+  font-family:'Open Sans', sans-serif;
 
 }
+
+.pack-content h3{
+  font-size: 110%;
+  margin-right: 10px;
+  color: #800080;
+  font-family:'Open Sans', sans-serif;
+
+}
+
+
+
+
 
 #badge{
   position: absolute;
   top:10px;
   right:5px;
   font-size: 90%;
-  background-color: #f42626;
+  background-color: #800080;
   color:#fff;
   padding: 5px;
   border-radius: 5px;
@@ -640,5 +628,13 @@ padding-left: 20px;
   font-size:18px;
   padding-bottom: 30px;
   color:#312e2e;
+}
 
+.course-title{
+  font-family:'Open Sans', sans-serif;
+  color: #800080;
+  font-size:250%;
+  padding-bottom: 10px;
+  border:1px solid #800080;
+  margin-bottom: 10px;
 }
