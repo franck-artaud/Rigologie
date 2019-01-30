@@ -224,6 +224,14 @@ header.public {
 }
 
 
+header.agenda {
+  padding-top: 8rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/agenda-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
 
 
 header.masthead hr {
@@ -438,10 +446,16 @@ padding-bottom: 20px;
 }
 
 .img-left{
-
 border-radius: 50%;
 box-shadow: 0px 0px 7px 0px #FFF;
 }
+
+.img-publique{
+  border-radius: 50%;
+  box-shadow: 0px 0px 7px 0px #800080;
+  }
+
+
 
 .produits-plus{
   margin-bottom: 25px;
@@ -495,4 +509,136 @@ background-color: #130013;
 
 .active{
   color:#800080;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  border-radius:10px;
+ 
+}
+
+.text-entreprise{
+padding-left: 20px;
+}
+
+
+.h3-purple{
+  color: #800080;
+  padding-left: 60px;
+}
+
+/*! AGENDA */
+
+
+.packs{
+  padding-top: 60px;
+}
+
+.section-title-pack h2{
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+.section-title-pack h3{
+  color: #800080;
+}
+
+.pack {
+  box-shadow:0 0 5px rgba(0,0,0,0.3 );
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.pack span{
+  font-weight: 200;
+  font-size:70%;
+  position: relative;
+  bottom: 7px;
+  left:3px;
+
+}
+
+
+.pack h3{
+  font-weight: 700;
+  font-size: 160%;
+  font-family: "muli", "arial", "sans-serif";
+  text-align: center;
+  color:#f42626;
+  text-transform: uppercase;
+  padding-top: 40px        }
+
+.pack h4{
+  font-weight: 400;
+  font-size: 130%;
+  font-family: "muli", "arial", "sans-serif";
+  text-align: center;
+  color:#312e2e;
+}
+
+.pack p{
+  font-weight: 200;
+  font-size: 130%;
+  font-family: "muli", "arial", "sans-serif";
+  text-align: center;
+  color:#312e2e;
+}
+
+.jour{
+  border-bottom: 1px solid;
+  padding-bottom: 30px;
+}
+
+.pack-content ul {
+  list-style: none;
+  padding:20px;
+  font-weight: 700;
+}
+
+  
+.pack-content ul li i {
+  font-size: 110%;
+  margin-right: 10px;
+  color: #f42626;
+}
+
+.sign-up{
+  text-align: center;
+}
+
+.btn-pack{
+  background-color:  #f42626;
+  color: #fff;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.btn-pack:hover{
+  color: #312e2e;
+  border:1px solid #f42626;
+  background-color:  #fff;
+  font-weight: 700;
+}
+
+.pack-medium{
+  background-color: #f1c0c0;
+
+}
+
+#badge{
+  position: absolute;
+  top:10px;
+  right:5px;
+  font-size: 90%;
+  background-color: #f42626;
+  color:#fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.sub-title-agenda{
+  font-size:18px;
+  padding-bottom: 30px;
+  color:#312e2e;
+
 }
