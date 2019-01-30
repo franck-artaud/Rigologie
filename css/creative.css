@@ -56,7 +56,7 @@ padding-top: 5px;
 }
 
 .bg-secondary {
-  background-color: #ec5aec !important;
+  background-color:#ec5aec;
 }
 
 .bg-dark {
@@ -210,6 +210,15 @@ header.presentation {
   padding-top: 8rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/bg-presentation.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+
+header.public {
+  padding-top: 8rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/public-bg.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -484,3 +493,6 @@ background-color: #130013;
   font-size: 20px;
 }
 
+.active{
+  color:#800080;
+}
