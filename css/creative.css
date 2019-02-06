@@ -393,12 +393,35 @@ header.presentation p span {
   color: #fff;
 }
 
+
+
+
 .button2 {
   font-size: 20px;
   color: #fff;
   border-radius: 3px;
   margin-top: 0px;
 }
+
+.button3 {
+  font-size: 20px;
+  color: #fff;
+  border-radius: 3px;
+  margin-top: 0px;
+  background-color: #800080;
+  border: 2px solid #800080;
+
+}
+
+.button3:hover {
+  color: #800080;
+  border-radius: 3px;
+  border: 2px solid #800080;
+  background-color: #fff;
+  transition: 1s;
+
+}
+
 
 
 .button2:hover {
@@ -439,7 +462,7 @@ header.presentation p span {
 @keyframes bounce {
   from {
     margin-top: 100%;
-    width: 100%; 
+    width: 100%;
   }
 
   to {
