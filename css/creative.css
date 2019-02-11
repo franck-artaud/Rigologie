@@ -745,3 +745,21 @@ header.presentation p span {
   font-size: 35px;
   line-height: 120%;
 }
+
+.date-title{
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #800080;
+
+}
+
+.salon-text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #FFF;
+  background-color: #800080;
+
+}
